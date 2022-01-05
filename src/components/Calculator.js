@@ -15,29 +15,29 @@ class Calculator extends React.Component {
 
         <div className="calculator-keys">
 
-          <button type="button" className="operator btn btn-secondary">+/-</button>
-          <button type="button" className="operator btn btn-secondary">AC</button>
-          <button type="button" className="operator btn btn-secondary">%</button>
-          <button type="button" className="operator btn btn-secondary">&divide;</button>
+          <button type="button" className="operator btn btn-gray border-secondary">+/-</button>
+          <button type="button" className="operator btn btn-gray border-secondary">AC</button>
+          <button type="button" className="operator btn btn-gray border-secondary">%</button>
+          <button type="button" className="operator btn btn-Orange border-secondary">&divide;</button>
 
-          <button type="button" className="btn btn-gray waves-effect">7</button>
-          <button type="button" className="btn btn-gray waves-effect">8</button>
-          <button type="button" className="btn btn-gray waves-effect">9</button>
-          <button type="button" className="operator btn btn-Orange">+</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">7</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">8</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">9</button>
+          <button type="button" className="operator btn btn-Orange border-secondary">+</button>
 
-          <button type="button" className="btn btn-gray waves-effect">4</button>
-          <button type="button" className="btn btn-gray waves-effect">5</button>
-          <button type="button" className="btn btn-gray waves-effect">6</button>
-          <button type="button" className="operator btn btn-Orange">-</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">4</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">5</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">6</button>
+          <button type="button" className="operator btn btn-Orange border-secondary">-</button>
 
-          <button type="button" className="btn btn-gray waves-effect">1</button>
-          <button type="button" className="btn btn-gray waves-effect">2</button>
-          <button type="button" className="btn btn-gray waves-effect">3</button>
-          <button type="button" className="operator btn btn-Orange">&times;</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">1</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">2</button>
+          <button type="button" className="btn btn-gray waves-effect border-secondary">3</button>
+          <button type="button" className="operator btn btn-Orange border-secondary">&times;</button>
 
-          <button type="button" className="btn btn-gray zero">0</button>
-          <button type="button" className="decimal function btn btn-secondary dot">.</button>
-          <button type="button" className="equal-sign operator btn btn-Orange equal">=</button>
+          <button type="button" className="btn btn-gray zero border-secondary">0</button>
+          <button type="button" className="decimal function btn btn-gray dot border-secondary">.</button>
+          <button type="button" className="equal-sign operator btn btn-Orange equal border-secondary">=</button>
 
         </div>
       </div>
