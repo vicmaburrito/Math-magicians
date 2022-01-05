@@ -3,6 +3,19 @@ import Calculator from './components/Calculator';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-const App = () => <div className="container my-4"><Calculator /></div>;
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
+}
 
 export default App;
