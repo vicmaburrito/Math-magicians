@@ -13,12 +13,14 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { next, total } = this.state;
     return (
 
       <div className="calculator card">
 
-        <input type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled />
-
+        <div type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled>
+          {next ?? total ?? 0}
+        </div>
         <div className="calculator-keys">
 
           <button type="button" onClick={this.onClickHandler} className="operator btn btn-gray border-secondary">+/-</button>
