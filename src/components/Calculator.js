@@ -41,7 +41,7 @@ class Calculator extends React.Component {
           <button type="button" onClick={this.onClickHandler} className="btn btn-gray waves-effect border-secondary">1</button>
           <button type="button" onClick={this.onClickHandler} className="btn btn-gray waves-effect border-secondary">2</button>
           <button type="button" onClick={this.onClickHandler} className="btn btn-gray waves-effect border-secondary">3</button>
-          <button type="button" onClick={this.onClickHandler} className="operator btn btn-Orange border-secondary">&times;</button>
+          <button type="button" onClick={this.onClickHandler} className="operator btn btn-Orange border-secondary">x</button>
 
           <button type="button" onClick={this.onClickHandler} className="btn btn-gray zero border-secondary">0</button>
           <button type="button" onClick={this.onClickHandler} className="decimal function btn btn-gray dot border-secondary">.</button>
