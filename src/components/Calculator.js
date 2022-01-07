@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+
+const CalculatorHook = () => {
+  const [stateObj, setStateObj] = useState({ total: '0' });
 
 class Calculator extends React.Component {
   constructor(props) {
