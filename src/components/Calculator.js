@@ -9,13 +9,14 @@ const CalculatorHook = () => {
     setStateObj(result);
   };
 
-  const { next, total } = this.state;
   return (
 
     <div className="calculator card">
 
       <div type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled>
-        {next ?? total ?? 0}
+        {stateObj.total}
+        {stateObj.operation}
+        {stateObj.next}
       </div>
       <div className="calculator-keys">
 
@@ -48,4 +49,4 @@ const CalculatorHook = () => {
   );
 }
 
-export default Calculator;
+export default CalculatorHook;
