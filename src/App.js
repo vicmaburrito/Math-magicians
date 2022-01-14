@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -12,12 +13,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <BrowserRouter>
         <Navbar />
-        <div className="App">
-          <Calculator />
-        </div>
-      </>
+        <Routes>
+          <Route path="./math-magicians/">Calculator</Route>
+        </Routes>
+        <Calculator />
+      </BrowserRouter>
     );
   }
 }
