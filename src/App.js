@@ -18,9 +18,9 @@ class App extends React.Component {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/math-magicians/" element={<Home />} />
-          <Route path="/math-magicians/calculator" element={<Calculator />} />
-          <Route path="/math-magicians/quote" element={<Quote />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
       </BrowserRouter>
     );
